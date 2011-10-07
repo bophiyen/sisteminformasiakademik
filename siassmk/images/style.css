@@ -1,0 +1,353 @@
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	background-color: #FFFFFF;
+	margin: 0px;
+	padding: 0px;
+}
+#header {
+	background: url('logosiassmk.jpg');
+	background-repeat: no-repeat;
+	height: 70px;
+	background-color: #0875d1;
+}
+#footer {
+	margin-top: 10px;
+	border-top: 4px solid #ddd;
+	text-align: center;
+	font-size: 11px;
+	font-family: Tahoma;
+	color: #666;
+}
+#admininfo {
+	background-color: #EEE;
+	padding: 2px 5px;
+	font-size: 11px;
+	font-family: Tahoma;
+	color: #FF0000;
+	line-height: 20px;
+	text-align: right;
+}
+#content {
+	padding: 20px;
+}
+.pagetitle {
+	border-bottom: 3px solid #eee;
+	font-family: Verdana;
+	font-size: 14px;
+	color: #A31E39;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+.pagetitle img {
+	margin-right: 5px;
+}
+table {
+	border: 1px solid #EEE;
+}
+th {
+	font-family: Verdana;
+	font-size: 14px;
+	font-weight: normal;
+	color: #333;
+	background-color: #DDD;
+	height: 35px;
+}
+td {
+	padding: 3px;
+	background-color: #F9F9F9;
+	font-family: Verdana;
+	font-size: 12px;
+	color: #222;
+}
+td a {
+	color: blue;
+	text-decoration: none;
+}
+td a:hover {
+	color: blue;
+	text-decoration: underline;
+}
+.tombol {
+	color: #FFF;
+	padding: 4px;
+	background-color: #333;
+	text-decoration: none;
+	border: 1px solid #CCC;
+	font-size: 11px;
+	font-family: Arial;
+}
+.tombol:hover {
+	background-color: red;
+}
+.formulir {
+	border: 1px dotted #CCC;
+	padding: 5px;
+	background-color: #D6E4E1;
+	margin-bottom: 10px;
+}
+.formulir h2 {
+	padding: 0px; margin: 0px;
+	border-bottom: 1px solid #666;
+	color: #666;
+}
+.opsi {
+	border: 1px dotted #CCC;
+	padding: 5px;
+	background-color: #F4F4AF;
+	margin-bottom: 10px;
+}
+.tabyellow {
+	background: url(tab_yellow.jpg) repeat-x;
+	font-weight: bold;
+	color: #000;
+}
+.tabred {
+	background: url(tab_red.jpg) repeat-x;
+	font-weight: bold;
+	color: #000;
+}
+/* ###################### DROPPY Basic code - don't modify ############################# */
+ 
+ #nav { display: block; margin: 0; padding: 0; position: relative; }
+  #nav li { display: block; list-style: none; margin: 0; padding: 0; float: left; position: relative; }
+  #nav a { display: block; }
+  #nav ul { display: none; position: absolute; left: 0; margin: 0; padding: 0; }
+  * html #nav ul { line-height: 0; } /* IE6 "fix" */
+  	#nav ul a { zoom: 1; } /* IE6/7 fix */
+    #nav ul li { float: none; }
+    #nav ul ul { top: 0; }
+    
+/* Essentials - configure this */
+
+#nav ul { width: 200px; }
+#nav ul ul { left: 201px; }
+
+/* Everything else is theming */
+ 
+#nav { background-color: #000; height: 24px; font-family:arial, verdana;}
+#nav *:hover { background-color: none; }
+#nav a { border-right: 1px solid white; color: #FFF; font-size: 12px; padding: 6px; line-height: 1; text-decoration:none;}
+  #nav li.hover a { background-color: #EEE; color: #000;}
+  #nav ul { top: 25px; }
+    #nav ul li a { background-color: #5E5A5A; }
+      #nav ul a.hover { background-color: #FF0000; }
+   #nav ul a { border-bottom: 1px solid white; border-right: none; opacity: 0.9; filter: alpha(opacity=90); }
+/* #nav ul a { border-bottom: none; } - I also needed this for IE6/7 */
+
+/* Main Flora Style Sheet for jQuery UI ui-datepicker */
+#ui-datepicker-div, .ui-datepicker-inline {
+	font-family: Tahoma;
+	font-size: 11px;
+	padding: 0;
+	margin: 0;
+	background: #E0F4D7;
+	width: 185px;
+}
+#ui-datepicker-div {
+	display: none;
+	border: 1px solid #FF9900;
+	z-index: 10;
+}
+.ui-datepicker-inline {
+	float: left;
+	display: block;
+	border: 0;
+}
+.ui-datepicker-rtl {
+	direction: rtl;
+}
+.ui-datepicker-dialog {
+	padding: 5px !important;
+	border: 4px ridge #83C948 !important;
+}
+button.ui-datepicker-trigger {
+	width: 25px;
+}
+img.ui-datepicker-trigger {
+	margin: 2px;
+	vertical-align: middle;
+}
+.ui-datepicker-prompt {
+	float: left;
+	padding: 2px;
+	background: #E0F4D7;
+	color: #000;
+}
+*html .ui-datepicker-prompt {
+	width: 185px;
+}
+.ui-datepicker-control, .ui-datepicker-links, .ui-datepicker-header, .ui-datepicker {
+	clear: both;
+	float: left;
+	width: 100%;
+	color: #FFF;
+}
+.ui-datepicker-control {
+	background: #FF9900;
+	padding: 2px 0px;
+}
+.ui-datepicker-links {
+	background: #E0F4D7;
+	padding: 2px 0px;
+}
+.ui-datepicker-control, .ui-datepicker-links {	
+	font-size: 80%;
+	letter-spacing: 1px;
+}
+.ui-datepicker-links label {
+	padding: 2px 5px;
+	color: #888;
+}
+.ui-datepicker-clear, .ui-datepicker-prev {
+	float: left;
+	width: 34%;
+}
+.ui-datepicker-rtl .ui-datepicker-clear, .ui-datepicker-rtl .ui-datepicker-prev {
+	float: right;
+	text-align: right;
+}
+.ui-datepicker-current {
+	float: left;
+	width: 30%;
+	text-align: center;
+}
+.ui-datepicker-close, .ui-datepicker-next {
+	float: right;
+	width: 34%;
+	text-align: right;
+}
+.ui-datepicker-rtl .ui-datepicker-close, .ui-datepicker-rtl .ui-datepicker-next {
+	float: left;
+	text-align: left;
+}
+.ui-datepicker-header {
+	padding: 1px 0 3px;
+	background: #83C948;
+	text-align: center;
+	font-weight: bold;
+	height: 1.3em;
+}
+.ui-datepicker-header select {
+	background: #83C948;
+	color: #000;
+	border: 0px;
+	font-weight: bold;
+}
+.ui-datepicker {
+	background: #CCC;
+	text-align: center;
+	font-size: 100%;
+}
+.ui-datepicker a {
+	display: block;
+	width: 100%;
+}
+.ui-datepicker-title-row {
+	background: #B1DB87;
+	color: #000;
+}
+.ui-datepicker-title-row .ui-datepicker-week-end-cell {
+	background: #B1DB87;
+}
+.ui-datepicker-days-row {
+	background: #FFF;
+	color: #666;
+}
+.ui-datepicker-week-col {
+	background: #B1DB87;
+	color: #000;
+}
+.ui-datepicker-days-cell {
+	color: #000;
+	border: 1px solid #DDD;
+}
+.ui-datepicker-days-cell a {
+	display: block;
+}
+.ui-datepicker-week-end-cell {
+	background: #E0F4D7;
+}
+.ui-datepicker-unselectable {
+	color: #888;
+}
+.ui-datepicker-week-over, .ui-datepicker-week-over .ui-datepicker-week-end-cell {
+	background: #B1DB87 !important;
+}
+.ui-datepicker-days-cell-over, .ui-datepicker-days-cell-over.ui-datepicker-week-end-cell {
+	background: #FFF !important;
+	border: 1px solid #777;
+}
+* html .ui-datepicker-title-row .ui-datepicker-week-end-cell {
+	background: #B1DB87 !important;
+}
+* html .ui-datepicker-week-end-cell {
+	background: #E0F4D7 !important;
+	border: 1px solid #DDD !important;
+}
+* html .ui-datepicker-days-cell-over {
+	background: #FFF !important;
+	border: 1px solid #777 !important;
+}
+* html .ui-datepicker-current-day {
+	background: #83C948 !important;
+}
+.ui-datepicker-today {
+	background: #B1DB87 !important;
+}
+.ui-datepicker-current-day {
+	background: #83C948 !important;
+}
+.ui-datepicker-status {
+	background: #E0F4D7;
+	width: 100%;
+	font-size: 80%;
+	text-align: center;
+}
+#ui-datepicker-div a, .ui-datepicker-inline a {
+	cursor: pointer;
+	margin: 0;
+	padding: 0;
+	background: none;
+	color: #000;
+}
+.ui-datepicker-inline .ui-datepicker-links a {
+	padding: 0 5px !important;
+}
+.ui-datepicker-control a, .ui-datepicker-links a {
+	padding: 2px 5px !important;
+	color: #000 !important;
+}
+.ui-datepicker-title-row a {
+	color: #000 !important;
+}
+.ui-datepicker-control a:hover {
+	background: #FDD !important;
+	color: #333 !important;
+}
+.ui-datepicker-links a:hover, .ui-datepicker-title-row a:hover {
+	background: #FFF !important;
+	color: #333 !important;
+}
+.ui-datepicker-multi .ui-datepicker {
+	border: 1px solid #83C948;
+}
+.ui-datepicker-one-month {
+	float: left;
+	width: 185px;
+}
+.ui-datepicker-new-row {
+	clear: left;
+}
+.ui-datepicker-cover {
+	display: none;
+	display/**/: block;
+	position: absolute;
+	z-index: -1;
+	filter: mask();
+	top: -4px;
+	left: -4px;
+	width: 193px;
+	height: 200px;
+}
