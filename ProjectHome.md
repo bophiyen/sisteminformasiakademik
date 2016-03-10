@@ -1,0 +1,1 @@
+Sistem Informasi Akademik adalah suatu aplikasi berbasis web dengan menggunakan php-mySql yang digunakan untuk mempermudah pihak sekolah untuk melakukan proses pendataan siswa dan lain sebagainya.
